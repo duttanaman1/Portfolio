@@ -14,39 +14,32 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Linux">
-          <SiLinux />
-        </abbr>
+        <SiLinux />
+        <h6>Linux</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Visual Studios Code">
-          <SiVisualstudiocode />
-        </abbr>
+        <SiVisualstudiocode />
+        <h6>Visual Studios Code</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Jupyter Notebook">
-          <SiJupyter />
-        </abbr>
+        <SiJupyter />
+        <h6>Jupyter Notebook</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Postman">
-          <SiPostman />
-        </abbr>
+        <SiPostman />
+        <h6>Postman</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Heroku">
-          <SiHeroku />
-        </abbr>
+        <SiHeroku />
+        <h6>Heroku</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Microsoft Office">
-          <SiMicrosoftoffice />
-        </abbr>
+        <SiMicrosoftoffice />
+        <h6>Microsoft Office</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="GitHub">
-          <AiFillGithub />
-        </abbr>
+        <AiFillGithub />
+        <h6>GitHub</h6>
       </Col>
     </Row>
   );

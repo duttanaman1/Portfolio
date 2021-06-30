@@ -8,26 +8,6 @@ import pdf from "../../Assets/Naman-Dutta.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
-
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
-        upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
-
   return (
     <Container fluid className="resume-section">
       <Particle />
@@ -42,7 +22,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="GRADUATE ANALYST [BARCLAYS]"
+              title="GRADUATE ANALYST [Barclays]"
               date="AUGUST 2021 - PRESENT"
               content={[
                 "Started full time job from 2nd August 2021 as graduate analyst",
@@ -77,6 +57,24 @@ function Resume() {
                 "Provided support for technical documentations, website integration and Project Management for the chapter",
               ]}
             />
+          </Col>
+          <Col md={6} className="resume-right">
+            <h3 className="resume-title">Education</h3>
+            <Resumecontent
+              title="COMPUTER SCIENCE ENGINEERING [VIT, Vellore ] "
+              date="2018 - 2021"
+              content={["CGPA: 8.6 "]}
+            />
+            <Resumecontent
+              title="12TH BOARD [Modern Indian School, Kathmandu]"
+              date="2015 - 2017"
+              content={["Precentage: 87%"]}
+            />
+            <Resumecontent
+              title="10TH BOARD [Bridgewater International School] "
+              date="2015"
+              content={["Precentage: 86.5%"]}
+            />
             <h3 className="resume-title">
               Awards <span className="purple">and</span> Achievements
             </h3>
@@ -108,24 +106,6 @@ function Resume() {
               content={[
                 "Publication in Journal of Information and Computational Science: 'A novel approach for accident detection and traffic control' ",
               ]}
-            />
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
-            <Resumecontent
-              title="COMPUTER SCIENCE ENGINEERING [VIT, Vellore ] "
-              date="2018 - 2021"
-              content={["CGPA: 8.6 "]}
-            />
-            <Resumecontent
-              title="12TH BOARD [Modern Indian School, Kathmandu]"
-              date="2015 - 2017"
-              content={["Precentage: 87%"]}
-            />
-            <Resumecontent
-              title="10TH BOARD [Bridgewater International School] "
-              date="2015"
-              content={["Precentage: 86.5%"]}
             />
             <h3 className="resume-title">Certification</h3>
             <Resumecontent
