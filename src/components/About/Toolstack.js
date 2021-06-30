@@ -7,8 +7,8 @@ import {
   SiPostman,
   SiHeroku,
   SiMicrosoftoffice,
-  AiFillGithub,
 } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
 
 function Toolstack() {
   return (
