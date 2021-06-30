@@ -30,8 +30,8 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies</b> and
-                also in areas related to{" "}
+                <b className="purple">Web Technologies</b> and also in areas
+                related to{" "}
                 <b className="purple">
                   Machine Learning and Software Engineering.
                 </b>
@@ -77,12 +77,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
+                  href="https://www.instagram.com/dutta.naman.until_eternity/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiFillInstagram />
                 </a>
               </li>
               <li className="social-icons">
@@ -94,7 +94,7 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>             
+              </li>
             </ul>
           </Col>
         </Row>

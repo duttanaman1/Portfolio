@@ -8,41 +8,93 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiPhp,
+  DiSass,
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import {
+  SiPytorch,
+  SiTensorflow,
+  SiJava,
+  SiMysql,
+  SiTailwindcss,
+  SiBootstrap,
+  SiJquery,
+} from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <abbr title="Java">
+          <SiJava />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <abbr title="Cpp">
+          <CgCPlusPlus />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <abbr title="Python">
+          <DiPython />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <abbr title="PHP">
+          <DiPhp />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <abbr title="JavaScript">
+          <DiJavascript1 />
+        </abbr>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <abbr title="NodeJs">
+          <DiNodejs />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <abbr title="ReactJs">
+          <DiReact />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <abbr title="Jquery">
+          <SiJquery />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+        <abbr title="MongoDb">
+          <DiMongodb />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <abbr title="Mysql">
+          <SiMysql />
+        </abbr>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <abbr title="Sass">
+          <DiSass />
+        </abbr>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <abbr title="Tailwindcss">
+          <SiTailwindcss />
+        </abbr>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <abbr title="Bootstrap">
+          <SiBootstrap />
+        </abbr>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <abbr title="Git">
+          <DiGit />
+        </abbr>
       </Col>
     </Row>
   );
