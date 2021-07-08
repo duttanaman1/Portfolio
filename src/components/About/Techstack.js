@@ -25,76 +25,90 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Java">
+       
           <SiJava />
-        </abbr>
+          <h6>Java</h6>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Cpp">
+       
           <CgCPlusPlus />
-        </abbr>
+          <h6>C++</h6>
+       
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Python">
+      
           <DiPython />
-        </abbr>
+          <h6>Python</h6>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="PHP">
+      
           <DiPhp />
-        </abbr>
+          <h6>PHP</h6>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="JavaScript">
+       
           <DiJavascript1 />
-        </abbr>
+          <h6>JavaScript</h6>
+       
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="NodeJs">
+       
           <DiNodejs />
-        </abbr>
+          <h6>NodeJs</h6>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="ReactJs">
+       
           <DiReact />
-        </abbr>
+          <h6>ReactJs</h6>
+       
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Jquery">
+     
           <SiJquery />
-        </abbr>
+          <h6>JQuery</h6>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="MongoDb">
+       
           <DiMongodb />
-        </abbr>
+          <h6>MongoDb</h6>
+       
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Mysql">
+     
           <SiMysql />
-        </abbr>
+          <h6>MySql</h6>
+      
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Sass">
+       
           <DiSass />
-        </abbr>
+          <h6>SASS</h6>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Tailwindcss">
+        
           <SiTailwindcss />
-        </abbr>
+          <h6>Tailwindcss</h6>
+       
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Bootstrap">
+       
           <SiBootstrap />
-        </abbr>
+          <h6>Bootstrap</h6>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <abbr title="Git">
+       
           <DiGit />
-        </abbr>
+          <h6>Git</h6>
+       
       </Col>
     </Row>
   );
