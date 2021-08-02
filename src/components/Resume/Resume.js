@@ -57,9 +57,7 @@ function Resume() {
                 "Provided support for technical documentations, website integration and Project Management for the chapter",
               ]}
             />
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
+             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="COMPUTER SCIENCE ENGINEERING [VIT, Vellore ] "
               date="2018 - 2021"
@@ -75,6 +73,8 @@ function Resume() {
               date="2015"
               content={["Precentage: 86.5%"]}
             />
+          </Col>
+          <Col md={6} className="resume-right">            
             <h3 className="resume-title">
               Awards <span className="purple">and</span> Achievements
             </h3>
@@ -115,11 +115,18 @@ function Resume() {
                 `Single Page Web Application with Angular JS`,
                 "Advanced Styling with Response Design",
                 "Rin Career Academy Course",
+                "Javascript: Coding Challange Bootcamp- 2020",
                 "Bootstrap & JQuery – Certification Course",
                 "Cyber Security and Internet of Things",
                 "Microsoft EXCEL -Learn MS EXCEL for Data Analysis",
                 "Getting started with Azure",
                 "Modern Javascript for ReactJS – ES6",
+                 "Support Vector Machines in Python",
+                "The Hands-on Machine Learning Course",
+                "Statistics & Probability for Data Science",
+                "Excel Charts and Graphs: Master Data Visualization",
+                "Getting Started with Application Development",
+                "Fundamentals of Network Security",
               ]}
             />
           </Col>
