@@ -7,6 +7,7 @@ import {
   SiPostman,
   SiHeroku,
   SiMicrosoftoffice,
+  SiIntellijidea,
 } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 
@@ -16,6 +17,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
         <h6>Linux</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+        <h6>Intellij Idea</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
