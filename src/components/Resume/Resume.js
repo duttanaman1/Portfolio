@@ -25,7 +25,7 @@ function Resume() {
               title="GRADUATE ANALYST [Barclays]"
               date="AUGUST 2021 - PRESENT"
               content={[
-                "Started full time job from 2nd August 2021 as graduate analyst",
+                "Started full time job from 30th August 2021 as graduate analyst",
               ]}
             />
             <Resumecontent
