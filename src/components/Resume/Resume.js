@@ -133,31 +133,7 @@ function Resume() {
                 "Business Etiquette Phone Email and Text: LinkedIn Learning",
                 "Communication Foundations: LinkedIn Learning",
                 "Graduate Technical Training Program 2021: Imartus Learning",
-              ]}
-              links={[
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-               "",
-               "",
-               "",
-               "",
-               "",
-               "",
-              ]}
+              ]}              
             />
           </Col>
         </Row>
