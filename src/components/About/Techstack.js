@@ -12,103 +12,83 @@ import {
   DiSass,
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiTensorflow,
   SiJava,
   SiMysql,
   SiTailwindcss,
   SiBootstrap,
   SiJquery,
+  SiSpring,
+  SiApachemaven,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-       
-          <SiJava />
-          <h6>Java</h6>
-      
+        <SiJava />
+        <h6>Java</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-       
-          <CgCPlusPlus />
-          <h6>C++</h6>
-       
+        <SiSpring />
+        <h6>Spring Boot</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      
-          <DiPython />
-          <h6>Python</h6>
-      
+        <SiApachemaven />
+        <h6>Apache Maven</h6>
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiJunit5 />
+        <h6>JUnit 5</h6>
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+        <h6>C++</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      
-          <DiPhp />
-          <h6>PHP</h6>
-      
+        <DiPython />
+        <h6>Python</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-       
-          <DiJavascript1 />
-          <h6>JavaScript</h6>
-       
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-       
-          <DiNodejs />
-          <h6>NodeJs</h6>
-      
+        <DiPhp />
+        <h6>PHP</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-       
-          <DiReact />
-          <h6>ReactJs</h6>
-       
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-     
-          <SiJquery />
-          <h6>JQuery</h6>
-      
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-       
-          <DiMongodb />
-          <h6>MongoDb</h6>
-       
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-     
-          <SiMysql />
-          <h6>MySql</h6>
-      
+        <DiJavascript1 />
+        <h6>JavaScript</h6>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-       
-          <DiSass />
-          <h6>SASS</h6>
-      
+        <DiNodejs />
+        <h6>NodeJs</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        
-          <SiTailwindcss />
-          <h6>Tailwindcss</h6>
-       
+        <DiReact />
+        <h6>ReactJs</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-       
-          <SiBootstrap />
-          <h6>Bootstrap</h6>
-      
+        <SiJquery />
+        <h6>JQuery</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-       
-          <DiGit />
-          <h6>Git</h6>
-       
+        <DiMongodb />
+        <h6>MongoDb</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+        <h6>MySql</h6>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSass />
+        <h6>SASS</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+        <h6>Tailwindcss</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <h6>Git</h6>
       </Col>
     </Row>
   );
