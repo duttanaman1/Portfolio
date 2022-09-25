@@ -18,38 +18,39 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body">              
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Java, Javascript and Python. </b>
-              </i>
               <br />
+              I am fluent in classics like
+              <i><b className="purple"> Java, Javascript </b></i>and<i><b className="purple"> MySQL.</b></i>
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies</b> and also in areas
-                related to{" "}
-                <b className="purple">
-                  Machine Learning and Software Engineering.
-                </b>
-              </i>
+              <br/>
+              I am working as a <i><b className="purple"> Software Developer</b></i>&nbsp; in a agile team.
+              <br/>              
+              <i><b className="purple"> Design, Development, Production </b></i>and
+              <i><b className="purple"> Support</b></i>
+              <br/>
+              That pretty much sums up most of my work activities.
+              <br />
+              <br/>
+              I am <i><b className="purple"> Technology Enthusiat</b></i>; passionate about Learning.
+              <br/>
+              My field of Interest's are: &nbsp;
+              <br/>
+              &nbsp;          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><b className="purple"> Software Engineering</b></i>
+              <br />
+              &nbsp;          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><b className="purple"> Web Development</b></i>
+              <br />
+              &nbsp;          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><b className="purple"> Data Analysis</b></i>
+              <br />
+              &nbsp;          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><b className="purple"> Machine Learning</b></i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              using <b className="purple">Blockchain, Cloud Technology</b> and&nbsp;
+              <i><b className="purple">Artificial Intelligence</b></i>              
             </p>
           </Col>
           <Col md={4} className="myAvtar">

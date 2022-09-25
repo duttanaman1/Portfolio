@@ -1,6 +1,7 @@
 import React from "react";
 
 function ResumeContent(props) {
+  console.log(props);
   return (
     <div className="resume-item">
       <h5 className={props.title ? "resume-title" : "resume-no-title"}>
@@ -11,7 +12,7 @@ function ResumeContent(props) {
       </p>
       <ul>
         {props.content.map((value, index) => (
-          <li key={index}> ‣ {value}</li>
+          <li key={index}> ‣{value}</li>
         ))}
       </ul>
     </div>

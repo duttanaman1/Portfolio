@@ -10,6 +10,7 @@ import {
   DiGit,
   DiPhp,
   DiSass,
+  DiCss3
 } from "react-icons/di";
 import {
   SiJava,
@@ -19,6 +20,8 @@ import {
   SiJquery,
   SiSpring,
   SiApachemaven,
+  SiRedux,
+  SiHtml5
 } from "react-icons/si";
 
 function Techstack() {
@@ -36,11 +39,55 @@ function Techstack() {
         <SiApachemaven />
         <h6>Apache Maven</h6>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiJunit5 />
-        <h6>JUnit 5</h6>
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+        <h6>ReactJs</h6>
+      </Col> 
+       <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+        <h6>Redux</h6>
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <h6>Git</h6>
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+        <h6>MySql</h6>
+      </Col>  
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+        <h6>JavaScript</h6>
+      </Col>       
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+        <h6>NodeJs</h6>
+      </Col>      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJquery />
+        <h6>JQuery</h6>
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+        <h6>HTML 5</h6>
+      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <h6>CSS</h6>
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+        <h6>MongoDb</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSass />
+        <h6>SASS</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+        <h6>Tailwindcss</h6>
+      </Col>    
+       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
         <h6>C++</h6>
       </Col>
@@ -51,44 +98,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp />
         <h6>PHP</h6>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-        <h6>JavaScript</h6>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-        <h6>NodeJs</h6>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <h6>ReactJs</h6>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJquery />
-        <h6>JQuery</h6>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <h6>MongoDb</h6>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-        <h6>MySql</h6>
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiSass />
-        <h6>SASS</h6>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-        <h6>Tailwindcss</h6>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-        <h6>Git</h6>
       </Col>
     </Row>
   );

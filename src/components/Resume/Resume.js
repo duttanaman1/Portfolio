@@ -25,7 +25,14 @@ function Resume() {
               title="GRADUATE ANALYST [Barclays]"
               date="AUGUST 2021 - PRESENT"
               content={[
-                "Started full time job from 30th August 2021 as graduate analyst",
+                "Developed RESTful APIs in aPaaS microservices centered on credit card processing and banking.",
+                "Worked on various strategies like prescreening, multicard check, delayed downsell, instant credit card, prefill data, virtual card number.",
+                "Indulged in Production, QA support, documentations and KT sessions.",
+                "Worked in Agile environment to manage JIRA tickets stories and bugs.",
+                "Used tools like Jenkins, Tomcat, Openshift, Vault Controller, kibana logs AppDynamics, and RAML",
+                "Developed end-to-end journey of secondary product using React Redux",
+                "Integrated adobe analytics tool into React application.",
+                "Used tools like Sonarqube and Sonarlint to improve code coverage, vulnerabilities , fix bugs and reduce code smells",
               ]}
             />
             <Resumecontent
@@ -57,7 +64,7 @@ function Resume() {
                 "Provided support for technical documentations, website integration and Project Management for the chapter",
               ]}
             />
-             <h3 className="resume-title">Education</h3>
+            <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="COMPUTER SCIENCE ENGINEERING [VIT, Vellore ] "
               date="2018 - 2021"
@@ -74,7 +81,7 @@ function Resume() {
               content={["Precentage: 86.5%"]}
             />
           </Col>
-          <Col md={6} className="resume-right">            
+          <Col md={6} className="resume-right">
             <h3 className="resume-title">
               Awards <span className="purple">and</span> Achievements
             </h3>
@@ -121,7 +128,7 @@ function Resume() {
                 "Microsoft EXCEL -Learn MS EXCEL for Data Analysis",
                 "Getting started with Azure",
                 "Modern Javascript for ReactJS – ES6",
-                 "Support Vector Machines in Python",
+                "Support Vector Machines in Python",
                 "The Hands-on Machine Learning Course",
                 "Statistics & Probability for Data Science",
                 "Excel Charts and Graphs: Master Data Visualization",
@@ -133,7 +140,35 @@ function Resume() {
                 "Business Etiquette Phone Email and Text: LinkedIn Learning",
                 "Communication Foundations: LinkedIn Learning",
                 "Graduate Technical Training Program 2021: Imartus Learning",
-              ]}              
+                "AWS Cloud Practitioner Essentials",
+                "SQL Database Programming",
+              ]}
+              links={[
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+                "#",
+              ]}
             />
           </Col>
         </Row>

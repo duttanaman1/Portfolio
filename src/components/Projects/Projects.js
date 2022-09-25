@@ -17,6 +17,9 @@ import attendance from "../../Assets/Projects/attendance.jpg";
 import javascript from "../../Assets/Projects/javascript.jpg";
 import encryption from "../../Assets/Projects/encryption.jpg";
 import pythonvsR from "../../Assets/Projects/pythonvsR.jpg";
+import blockchain from "../../Assets/Projects/Blockchain.png"
+import cpp from "../../Assets/Projects/CompetitiveProgramming.png"
+
 
 function Projects() {
   return (
@@ -133,7 +136,7 @@ function Projects() {
               imgPath={pythonvsR}
               link="https://www.linkedin.com/pulse/what-major-differences-between-python-r-data-science-naman-dutta/"
               title="Python vs R language"
-              site="LinkedIn.com"
+              site=""
             />
           </Col>
           <Col md={4} className="blog-card">
@@ -141,7 +144,7 @@ function Projects() {
               imgPath={encryption}
               link="https://www.linkedin.com/pulse/5-common-encryption-algorithms-unbreakables-future-naman-dutta/"
               title="5 common encryption algorithms"
-              site="LinkedIn.com"
+              site=""
             />
           </Col>
           <Col md={4} className="blog-card">
@@ -149,7 +152,23 @@ function Projects() {
               imgPath={javascript}
               link="https://www.linkedin.com/pulse/what-javascript-framework-choose-naman-dutta/"
               title="What javascript framework to choose"
-              site="LinkedIn.com"
+              site=""
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={blockchain}
+              link="https://www.linkedin.com/pulse/brief-history-blockchain-naman-dutta/"
+              title="The Brief, Brief History of Blockchain"
+              site=""
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={cpp}
+              link="https://www.linkedin.com/pulse/competitive-programming-algorithms-every-coder-must-know-naman-dutta/"
+              title="Competitive programming algorithms every coder must know"
+              site=""
             />
           </Col>
         </Row>
